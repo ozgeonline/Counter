@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(135deg,#999,#333)
+}
+.container{
+  box-shadow: 0px 3px 8px #fff;
+  border-radius: 7px;
+  min-width: 450px;
+  height: 300px;
+  padding: 1rem;
+  background-color: #fff;
+}
+h1{
+  font-size: 3rem;
+  color: #4167FF;
+  text-shadow: 0 2px 4px #555;
+  letter-spacing: 3px;
+}
+.value{
+  font-size: 6rem;
+}
+.btn-container .btn{
+  margin: 0 10px;
+}
